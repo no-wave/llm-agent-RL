@@ -1,13 +1,12 @@
 # 강화학습3: LLM Agent Reinforcement Learning
 #### 강화학습이 만드는 LLM Agent의 자율적 사고와 행동을 위한 핵심 가이드
 
-
 <img src="https://beat-by-wire.gitbook.io/beat-by-wire/~gitbook/image?url=https%3A%2F%2F3055094660-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FYzxz4QeW9UTrhrpWwKiQ%252Fuploads%252FrV5fPICBRIFJ9oSFg5aw%252FRL2.png%3Falt%3Dmedia%26token%3Dfd71f18b-599d-44a6-8403-b348a368c85c&width=300&dpr=3&quality=100&sign=b54c5538&sv=2" width="500" height="707"/>
 
 
 ## 책 소개
 
-표를 세우고 행동할 수 있을까"라는 질문을 품는 순간이다. LLM은 분명 놀랍다. 방대한 지식을 언어로 유창하게 표현하고, 맥락을 이해하며, 복잡한 추론을 수행하는 능력은 불과 몇 년 전만 해도 상상하기 어려웠다.
+LLM을 처음 진지하게 다뤄본 사람들이 공통적으로 경험하는 순간이 있다. ChatGPT가 복잡한 질문에 막힘없이 답하는 모습을 보거나, Claude가 긴 문서를 단숨에 분석하고 코드를 작성하는 장면을 보며 "이 모델이 스스로 목표를 세우고 행동할 수 있을까"라는 질문을 품는 순간이다. LLM은 분명 놀랍다. 방대한 지식을 언어로 유창하게 표현하고, 맥락을 이해하며, 복잡한 추론을 수행하는 능력은 불과 몇 년 전만 해도 상상하기 어려웠다.
 
 문제는 그 다음이다. LLM은 질문에 답하는 데는 뛰어나지만, 스스로 목표를 설정하고, 환경과 상호작용하며, 피드백을 통해 전략을 개선하는 데는 본질적인 한계가 있다. 막상 에이전트를 구현하려 하면 순차적 의사결정, 환경 상태의 표현, 보상 설계, 탐색과 활용의 균형 같은 문제들이 쏟아진다. 이론은 추상적이고, LLM과 강화학습을 잇는 다리는 생각보다 복잡하다. 많은 실무자들이 바로 그 지점에서 멈춘다. 이 책은 그 지점을 통과하기 위해 썼다.
 
